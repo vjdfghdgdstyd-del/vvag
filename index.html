@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Raksha Bandhan!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <h1>To my Dearest Bhumika💕</h1>
+            <div class="surprise-button" onclick="openSurprise()">
+                <span class="pointer">👆</span>
+                <p>Click to open your surprise</p>
+            </div>
+        </div>
+        
+        <!-- Surprise Modal -->
+        <div id="surpriseModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeSurprise()">&times;</span>
+                <h2>Happy Raksha Bandhan! 🎉</h2>
+                <div class="surprise-message">
+                    <p>Dear Bhumika,</p>
+                    <p>On this special day of Raksha Bandhan, I want you to know how grateful I am to have you as my sister. You've always been my protector, my guide, and my best friend.</p>
+                    <p>Thank you for all the love, care, and countless memories we've shared. You make every day brighter! ✨</p>
+                    <p>Wishing you all the happiness in the world! 💖</p>
+                    <div class="rakhi-animation">🎀</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating elements -->
+        <div class="floating-hearts"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
